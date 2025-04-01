@@ -64,7 +64,7 @@ body {
 .home-content {
     display: flex;
     height: 230px;
-    width: 370px;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     margin: auto;
@@ -363,6 +363,13 @@ body {
         width: fit-content;
     }
 
+    .home-content {
+        text-align: center;
+        color: white;
+        margin-top: 10%;
+        width: 329px;
+    }
+
     .contact .mail {
         font-size: 15px;
     }
@@ -436,7 +443,6 @@ body {
     text-align: center;
     color: white;
     margin-top: 10%;
-    width: 100%;
 }
 
 .home-content h4 {
@@ -534,10 +540,6 @@ body {
 
 @media (max-width: 480px) {
 
-    .home-content {
-        width: 500px;
-    }
-
     .home-content h4 {
         font-size: 1.2rem;
     }
@@ -547,10 +549,10 @@ body {
     }
 
     .home-content h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .Multiple-Text {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 }
