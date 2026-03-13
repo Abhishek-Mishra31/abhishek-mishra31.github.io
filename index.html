@@ -75,21 +75,38 @@
 
 
         <div class="section" id="section01">
-            <h2> About Me </h2>
-            <img src="/img/My_Pic.jpg" alt="image" />
-            <p>
-                My name is Abhishek Mishra, I'm from Belaganj ,Gaya (Bihar),
-                I have completed My schooling from S.S.V.M (Belaganj) and currently I am Persuing Master of Computer
-                Application(MCA) at Chandigarh University.
-                Coming to my family, there are 6 members in my family including me.
-                My strengths are I'm a quick learner and a self-motivated person.
-                My weakness is that If anyone asks me for help I can not say no.
-                My hobbies are Develop Software & Websites , Listening to Music and Singing Music .. <br>
-                That's all about me.
-            </p>
+            <div class="about-container" data-aos="fade-up">
+                <div class="about-content">
+                    <div class="about-image" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="/img/MyPic.jpg" alt="Abhishek Mishra" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                        <h2 class="about-title">About <span>Me</span></h2>
+                        <div class="coding-badge">
+                            <i class='bx bx-code-alt'></i>
+                            <span>Software Developer</span>
+                        </div>
+                        <p>
+                            Hi, I'm <strong>Abhishek Mishra</strong> 👋<br>
+                            A Software Developer at <strong>Walkwel Technology, Mohali
+                        </p>
+                        <p>
+                            I specialize in software development and modern web technologies, building applications that
+                            are
+                            efficient, scalable, and user-focused.
+                        </p>
+                        <p>
+                            I enjoy solving problems through code and continuously learning new technologies to create
+                            impactful
+                            digital solutions. When I'm not coding, I enjoy music and singing.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
             <hr
                 style="border: none; height: 3px; background: white; opacity: 0.8; width: 80%; margin: 20px auto; box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.6);">
-
         </div>
 
 
@@ -188,6 +205,34 @@
                         </div>
                     </div>
 
+                    <div class="col-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="550">
+                        <div class="card shadow-sm skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="skill-icon" />
+                            <small class="skill-text">Git</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="card shadow-sm skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" class="skill-icon" style="filter: invert(1);" />
+                            <small class="skill-text">Next.js</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="650">
+                        <div class="card shadow-sm skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" alt="Nest.js" class="skill-icon" />
+                            <small class="skill-text">Nest.js</small>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-3" data-aos="zoom-in" data-aos-delay="700">
+                        <div class="card shadow-sm skill-card">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="skill-icon" />
+                            <small class="skill-text">Docker</small>
+                        </div>
+                    </div>
+
                 </div>
             </section>
             <hr
@@ -201,46 +246,56 @@
             <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-
                         <div class="project my-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="/img/Projects/LinkCrawler.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Linkedin_Crawler</h5>
-                                    <p class="card-text">A LinkedIn scraping tool that extracts public profile data
-                                        using LinkedIn URLs and allows downloading the details in PDF format. Ideal for
-                                        research or recruitment use.
-                                        <hr>
-                                        <strong>Skills Used:-</strong> <i> ReactJs , Express, Cheerio, Puppeteer,
-                                            JWT, Bcrypt </i>
-                                    </p>
-                                    <div class="button">
+                            <div class="project-card" data-aos="fade-up">
+                                <div class="card-img-wrapper">
+                                    <img src="/img/Projects/LinkCrawler.png" class="card-img-top"
+                                        alt="Linkedin Crawler">
+                                    <div class="card-overlay">
                                         <a href="https://github.com/Abhishek-Mishra31/_Linkedin_Crawler_"
-                                            target="_blank" class="btn btn-dark ">View
+                                            target="_blank" class="view-btn"><i class='bx bx-link-external'></i> View
                                             Repo</a>
+                                    </div>
+                                </div>
+                                <div class="project-card-body">
+                                    <h5 class="project-title">Linkedin Crawler</h5>
+                                    <p class="project-desc">A LinkedIn scraping tool that extracts public profile data
+                                        using LinkedIn URLs and allows downloading the details in PDF format. Ideal for
+                                        research or recruitment use.</p>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">ReactJs</span>
+                                        <span class="skill-tag">Express</span>
+                                        <span class="skill-tag">Cheerio</span>
+                                        <span class="skill-tag">Puppeteer</span>
+                                        <span class="skill-tag">JWT</span>
+                                        <span class="skill-tag">Bcrypt</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
                     <div class="carousel-item">
                         <div class="project my-4">
-                            <div class="card my-2" style="width: 18rem;">
-                                <img src="/img/Projects/Voting_app.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Electrify_Voting_app</h5>
-                                    <p class="card-text"> A secure MERN-based web app for digital elections with voter
-                                        registration, real-time vote tracking, and encrypted authentication.
-                                        <hr>
-                                        <strong>Skills Used :- </strong> <i> ReactJs, NodeJs, MongoDB, JWT
-                                        </i>
-                                    </p>
-                                    <div class="button">
+                            <div class="project-card" data-aos="fade-up">
+                                <div class="card-img-wrapper">
+                                    <img src="/img/Projects/Voting_app.png" class="card-img-top"
+                                        alt="Electrify Voting app">
+                                    <div class="card-overlay">
                                         <a href="https://github.com/Abhishek-Mishra31/Electrify-Voting-App"
-                                            target="_blank" class="btn btn-dark">View
+                                            target="_blank" class="view-btn"><i class='bx bx-link-external'></i> View
                                             Repo</a>
+                                    </div>
+                                </div>
+                                <div class="project-card-body">
+                                    <h5 class="project-title">Electrify Voting App</h5>
+                                    <p class="project-desc">A secure MERN-based web app for digital elections with voter
+                                        registration, real-time vote tracking, and encrypted authentication.</p>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">ReactJs</span>
+                                        <span class="skill-tag">NodeJs</span>
+                                        <span class="skill-tag">MongoDB</span>
+                                        <span class="skill-tag">JWT</span>
                                     </div>
                                 </div>
                             </div>
@@ -249,45 +304,52 @@
 
                     <div class="carousel-item">
                         <div class="project my-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="/img/Projects/StudentX.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Student_X</h5>
-                                    <p class="card-text">A Student Management System with role-based access. Students
-                                        can view grades, courses, and events, and submit feedback. Admins can manage
-                                        students, courses, events, and view feedback.
-                                        <hr>
-                                        <strong>Skills Used :- </strong> <i> JSP, Servlet, JDBC, Hibernate,
-                                            MYSQL</i>
-                                    </p>
-                                    <div class="button">
+                            <div class="project-card" data-aos="fade-up">
+                                <div class="card-img-wrapper">
+                                    <img src="/img/Projects/StudentX.png" class="card-img-top" alt="Student X">
+                                    <div class="card-overlay">
                                         <a href="https://github.com/Abhishek-Mishra31/Student_X" target="_blank"
-                                            class="btn btn-dark">View
-                                            Repo</a>
+                                            class="view-btn"><i class='bx bx-link-external'></i> View Repo</a>
+                                    </div>
+                                </div>
+                                <div class="project-card-body">
+                                    <h5 class="project-title">Student X</h5>
+                                    <p class="project-desc">A Student Management System with role-based access. Students
+                                        can view grades, courses, and events, and submit feedback. Admins can manage
+                                        students, courses, events, and view feedback.</p>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">JSP</span>
+                                        <span class="skill-tag">Servlet</span>
+                                        <span class="skill-tag">JDBC</span>
+                                        <span class="skill-tag">Hibernate</span>
+                                        <span class="skill-tag">MYSQL</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
                     <div class="carousel-item">
                         <div class="project my-4">
-                            <div class="card my-2" style="width: 18rem;">
-                                <img src="/img/Projects/Quiz_app.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Programmiz_Quiz_App</h5>
-                                    <p class="card-text">
-                                        A quiz application with two categories: Language-based and DSA-based quizzes.
-                                        Designed to test and improve programming knowledge interactively.
-                                        <hr>
-                                        <strong>Skills Used :- </strong> <i> ReactJs, NodeJs, React-Router,
-                                            MongoDB</i>
-                                    </p>
-                                    <div class="button">
+                            <div class="project-card" data-aos="fade-up">
+                                <div class="card-img-wrapper">
+                                    <img src="/img/Projects/Quiz_app.png" class="card-img-top"
+                                        alt="Programmiz Quiz App">
+                                    <div class="card-overlay">
                                         <a href="https://github.com/Abhishek-Mishra31/Quiz_App" target="_blank"
-                                            class="btn btn-dark">View
-                                            Repo</a>
+                                            class="view-btn"><i class='bx bx-link-external'></i> View Repo</a>
+                                    </div>
+                                </div>
+                                <div class="project-card-body">
+                                    <h5 class="project-title">Programmiz Quiz App</h5>
+                                    <p class="project-desc">A quiz application with two categories: Language-based and
+                                        DSA-based quizzes. Designed to test and improve programming knowledge
+                                        interactively.</p>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">ReactJs</span>
+                                        <span class="skill-tag">NodeJs</span>
+                                        <span class="skill-tag">React-Router</span>
+                                        <span class="skill-tag">MongoDB</span>
                                     </div>
                                 </div>
                             </div>
@@ -345,6 +407,26 @@
                 AOS.init({ duration: 600, once: true });
             </script>
 
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+                    const menuToggle = document.getElementById('navbarSupportedContent');
+
+                    navLinks.forEach(function (l) {
+                        l.addEventListener('click', function () {
+                            if (menuToggle.classList.contains('show')) {
+                                const bsCollapse = bootstrap.Collapse.getInstance(menuToggle);
+                                if (bsCollapse) {
+                                    bsCollapse.hide();
+                                } else {
+                                    menuToggle.classList.remove('show');
+                                }
+                            }
+                        });
+                    });
+                });
+            </script>
 </body>
 
 </html>
